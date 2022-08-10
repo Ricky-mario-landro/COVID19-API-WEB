@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.landing {
+    position: relative;
+}
+
+.landing img {
+    width: 100%;
+    height: 500px;
+}
+
+.landing h2 {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    z-index: 9999;
+    color: white;
+}
+
+.landing p {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    z-index: 9999;
+    color: white;
+}
+
+.box1 {
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    background-color: white;
+    color: white;
+    z-index: 100000;
+    padding: 5px;
+    border-radius: 5px;
+    top: 450px;
+    text-align: center;     
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.8);    
+}
+
+.box1 h5 {
+    color: red;
+}
+
+.box1 p {
+    margin-top: 10px;
+    color: black;
+}
+
+#positif {
+    color: black;
+}
+
+.box2 {
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    background-color: white;
+    color: white;
+    z-index: 100000;
+    padding: 5px;
+    border-radius: 5px;
+    top: 450px;
+    left: 550px;
+    text-align: center;     
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.8);    
+}
+
+.box2 h5 {
+    color: green;
+}
+
+.box2 p {
+    margin-top: 10px;
+    color: black;
+}
+
+#sembuh {
+    color: black;
+}
+
+.box3 {
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    background-color: white;
+    color: white;
+    z-index: 100000;
+    padding: 5px;
+    border-radius: 5px;
+    top: 450px;
+    left: 1000px;
+    text-align: center;     
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.8);    
+}
+
+.box3 h5 {
+    color: blue;
+}
+
+.box3 p {
+    margin-top: 10px;
+    color: black;
+}
+
+#meninggal {
+    color: black;
+}
+
